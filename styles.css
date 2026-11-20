@@ -1,0 +1,151 @@
+body {
+    background-color: #f5e9e7;
+}
+body {
+    margin: 0;
+    font-family: kreon;
+}
+header {
+    background-color: #d4989a;
+    padding: 1rem 10px;
+}
+header span {
+    color: #4f0124;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+nav {
+margin: 0;
+    background-color: #C7D9B7;
+}
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0 10px;
+    display: flex;
+}
+nav ul li a {
+    padding: .86rem 1rem;
+    display: block;
+    text-decoration: none;
+    color: #304a43;
+    font-size: 1.1rem;
+    font-weight: 400;
+
+}
+nav li a:hover {
+    color: #FFF8F5;
+}
+
+nav li a:active {
+    background-color: #819e86;
+    color: #FFF8F5;
+}
+main {
+    padding: 1rem 10px;
+}
+main h1 {
+color: #89023e;
+}
+main h2 {
+    color: #cc7178;
+}
+main p{
+    color: #260011;
+    margin: 0;
+}
+main p :any-link {
+    color: #fa0070;
+}
+main p em {
+    color: #304a43;
+}
+main p strong {
+    color: #455e49;
+} 
+main  {
+   border: 5px dashed #c0b8ab;
+   border-radius: 10px;
+}
+main ol {
+   padding: 7;
+   
+}
+main dt {
+    padding: 0;
+}
+header {
+    border: #7e535d 5px dashed;
+}
+footer {
+    clear: both;
+}
+ figure.wrapped {
+    float: right;
+    margin: 0 0 0 10px;
+    width: 40%;
+ }
+ figure.wrapped img {
+    width: auto;
+    height: auto;
+ }
+figure.wrapped figcaption {
+text-align: center;
+font-size: .75rem;
+}
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 20px;
+    gap: 20px 10px;
+}
+div.gallery figure{
+margin: 0;
+}
+div.gallery figcaption { 
+    text-align: center;
+    font-size: .8rem;
+    color: #7e535d;
+}
+
+
+.form fieldset {
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    border: 1px solid #260011;
+}
+
+.form legend {
+    color: #7e535d; 
+    font-size: .9rem;
+}
+.form label{
+margin: .5rem;
+
+}
+.form label, .form select, .form [type=text], .form [type=tel], .form textarea {
+    display: block;
+}
+.form [type=text], .form[type=tel], .form select, .form textarea {
+border: solid 1px #cc7178;
+padding: .3rem;
+width: 250px;
+border-radius: .3rem;
+font-family: kreon sans-serif;
+font-weight: 200;
+
+} 
+.form textarea {
+    height: 6rem;
+
+}
+.form [type=submit] {
+    background-color: #819e86;
+    border: dotted;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: #0b1311;
+    margin: 1rem 0 0 .1vw;
+}
